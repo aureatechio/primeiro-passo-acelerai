@@ -20,7 +20,7 @@ export default function Etapa4() {
   const [slideDirection, setSlideDirection] = useState(1)
   const [quizReady, setQuizReady] = useState(false)
 
-  const totalSlides = 5
+  const totalSlides = 4
 
   const goToSlide = (index) => {
     setSlideDirection(index > currentSlide ? 1 : -1)
